@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dmitri Dimov | Full Stack Web Developer</title>
+  </head>
+  <body>
+    <div class="hero" id="hero">
+      <div class="canvas">
+        <canvas class="connecting-dots"></canvas>
+      </div>
+      <div class="heading">
+        <div class="heading__line-1">Hello, I'm <span>Dmitri</span>.</div>
+        <div class="heading__line-2">I'm a full stack web developer.</div>
+        <a href="#about" class="heading__link">
+          <div class="heading-cta">
+            View my work
+
+            <svg
+              class="heading__arrow"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <title>arrow-right</title>
+              <path
+                d="M11.293 5.707l5.293 5.293h-11.586c-0.552 0-1 0.448-1 1s0.448 1 1 1h11.586l-5.293 5.293c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l7-7c0.092-0.092 0.166-0.202 0.217-0.324 0.101-0.245 0.101-0.521 0-0.766-0.049-0.118-0.121-0.228-0.217-0.324l-7-7c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"
+              ></path>
+            </svg>
+          </div>
+        </a>
+      </div>
+    </div>
+    <nav class="navigation-bar">
+      <ul class="navigation">
+        <li class="navigation__item navigation__item--active" id="nav-hero"><a href="#hero">Home</a></li>
+        <li class="navigation__item" id="nav-about"><a href="#about">About</a></li>
+        <li class="navigation__item" id="nav-projects"><a href="#projects">Projects</a></li>
+        <li class="navigation__item" id="nav-contact"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="main-bg">
+      <div class="canvas">
+        <canvas class="canvas-2"></canvas>
+      </div>
+    </div>
+    <section class="about" id="about">
+      <h2 class="about__heading section-heading">About</h2>
+
+      <div class="about__content">
+        <div class="profile">
+          <div class="profile__picture">
+            <img src="./assets/myfoto.png" alt="" />
+          </div>
+          <p class="profile__blurb">
+            Fully committed to the philosophy of life-long learning, I’m a full stack developer with a deep passion for JavaScript, React and all things web development. The unique combination of creativity, logic, technology and never running out of new things to discover, drives my excitement and passion for web development. When I’m not at my computer, I like to spend my time hiking, cooking, and watching movies. 
+          </p>
+        </div>
+        <!-- <h2 class="about__heading">Skills & technologies</h2> -->
+        <div class="skills">
+          <!-- <div class="skills__row">
+            <div class="skills__item skills__item--node">
+              <img src="./assets/node.png" alt="" />
+            </div>
+          </div> -->
+          <div class="skills__row">
+            <div class="skills__item skills__item--html">
+              <img src="./assets/html.png" alt="" />
+              <div class="skills__item-name">HTML</div>
+            </div>
+            <div class="skills__item skills__item--react">
+              <img src="./assets/react.png" alt="" />
+              <div class="skills__item-name">REACT</div>
+            </div>
+
+            <div class="skills__item skills__item--r">
+              <img src="./assets/node.png" alt="" />
+              <div class="skills__item-name">NODE.JS</div>
+            </div>
+          </div>
+          <div class="skills__row">
+            <div class="skills__item skills__item--js">
+              <img src="./assets/js.png" alt="" />
+              <div class="skills__item-name">JAVASCRIPT</div>
+            </div>
+            <div class="skills__item skills__item--ts">
+              <img src="./assets/ts.png" alt="" />
+              <div class="skills__item-name">TYPESCRIPT</div>
+            </div>
+            <div class="skills__item skills__item--python">
+              <img src="./assets/mongo.png" alt="" />
+              <div class="skills__item-name">MONGODB</div>
+            </div>
+
+            <div class="skills__item skills__item--postgres">
+              <img src="./assets/postgres.png" alt="" />
+              <div class="skills__item-name">POSTGRESQL</div>
+            </div>
+          </div>
+          <div class="skills__row">
+            <div class="skills__item skills__item--css">
+              <img src="./assets/css.png" alt="" />
+              <div class="skills__item-name">CSS</div>
+            </div>
+            <div class="skills__item skills__item--git">
+              <img src="./assets/git.png" alt="" />
+              <div class="skills__item-name">GIT</div>
+            </div>
+
+            <div class="skills__item skills__item--docker">
+              <img src="./assets/docker.png" alt="" />
+              <div class="skills__item-name">DOCKER</div>
+            </div>
+          </div>
+          <!-- <div class="skills__row">
+            <div class="skills__item skills__item--postgres">
+              <img src="./assets/postgres.png" alt="" />
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="projects__heading section-heading">Projects</h2>
+
+      <div class="project project-left">
+        <a href="https://ichgramm-frontend.vercel.app/" target="_blank">
+          <div class="project__image-container weather">
+            <div class="project__image-image">
+              <img src="./assets/ichgram.png" alt="" />
+            </div>
+          </div>
+        </a>
+        <div class="project__info">
+          <h3 class="project__title">Ichgram<br />Social Media App</h3>
+          <p class="project__description">Full‑stack Instagram‑like application: posts, stories, likes, comments, follows, real‑time chat. Built with React, Vite, Redux, Node.js, Express.js, TypeScript, MongoDB (Mongoose), WebSockets and JWT auth.</p>
+          <a href="https://ichgramm-frontend.vercel.app/" target="_blank"
+            ><div class="project__live-2">Live app</div></a
+          >
+          <a href="https://github.com/dimovdmitrii/ichgramm_frontend" target="_blank"
+            ><div class="project__live-2">learn more</div></a
+          >
+        </div>
+      </div>
+
+      <div class="project project-right">
+        <div class="project__info">
+          <h3 class="project__title">G-Code Terminal & <br />Virtual Keyboards</h3>
+          <p class="project__description">G-code sending terminal and touch-optimized QWERTY + numeric keyboards for a 3D bioprinter application </p>
+        </div>
+        <a href="javascript:void(0)" class="project__image-link--noaction">
+          <div class="project__image-container todo biomotion">
+            <div class="project__image-image">
+              <img src="./assets/biomotion.png" alt="" />
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="project project-left">
+        <a href="https://pet-shop-projct.vercel.app/" target="_blank">
+          <div class="project__image-container retro">
+            <div class="project__image-image">
+              <img src="./assets/petshop.png" alt="" />
+            </div>
+          </div>
+        </a>
+        <div class="project__info">
+          <h3 class="project__title">PetShop<br />Online Pet Store</h3>
+          <p class="project__description">Full‑stack pet store. Built with React, Redux Toolkit, React Router, Material UI, CSS Modules, Axios, Swiper and REST API.</p>
+          <a href="https://pet-shop-projct.vercel.app/" target="_blank"
+            ><div class="project__live-2">Live app</div></a
+          >
+          <a href="https://github.com/dimovdmitrii/petshop-project" target="_blank"
+            ><div class="project__live-2">learn more</div></a
+          >
+        </div>
+      </div>
+
+      <div class="project project-right">
+        <div class="project__info">
+          <h3 class="project__title">// TO-DO<br />Productivity App</h3>
+          <p class="project__description">Keep track of tasks with custom project folders and notes.</p>
+          <a href="https://bscottnz.github.io/todo/" target="_blank"
+            ><div class="project__live-2">live app</div></a
+          >
+          <a href="https://github.com/bscottnz/todo" target="_blank"
+            ><div class="project__live-2">learn more</div></a
+          >
+        </div>
+        <a href="https://bscottnz.github.io/todo/" target="_blank">
+          <div class="project__image-container todo">
+            <div class="project__image-image">
+              <img src="./assets/todo.png" alt="" />
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="contact__heading section-heading">Contact</h2>
+      <p class="contact__text">Have a question or want to work together? Leave your details and I'll get back to you as soon as possible.</p>
+
+      <form
+        class="contact__form"
+        action="https://formspree.io/f/xdoprgpv"
+        method="POST"
+      >
+        <input
+          class="contact__form-name"
+          type="text"
+          name="name"
+          placeholder="Name"
+          
+        />
+
+        <input
+          class="contact__form-email"
+          type="email"
+          name="_replyto"
+          placeholder="Email"
+          
+        />
+
+        <textarea
+          class="contact__form-message"
+          name="message"
+          placeholder="Message"
+          
+        ></textarea>
+
+        <div class="contact__form-error-submit">
+        	<div class="form-error">
+        	  <div class="form-error__name">Please enter your name.</div>
+        	  <div class="form-error__email">Please enter a valid email.</div>
+        	  <div class="form-error__msg">Please enter a message.</div>
+        	</div>
+        	<button type="button" class="contact__form-submit-2 project__live-2" id="form-submit" >Submit</button>
+        </div>
+      </form>
+      
+    </section>
+    <footer class="footer">
+      <a href="#hero">
+        <div class="return-home">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100%"  viewBox="0 0 24 24" >
+            <title></title>
+            <path fill="#fafafa" d="M17.707 10.293l-5-5c-0.391-0.391-1.024-0.391-1.414 0l-5 5c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l4.293-4.293 4.293 4.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414zM17.707 17.293l-5-5c-0.391-0.391-1.024-0.391-1.414 0l-5 5c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l4.293-4.293 4.293 4.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414z"></path>
+            </svg>
+        </div>
+      </a>
+      <div class="socials">
+        <a href="https://github.com/bscottnz" target="_blank"> 
+          <div class="socials__github">
+            <img src="./assets/github-logo.png" alt="" />
+          </div>
+        </a>
+        <a href="mailto:blscott@gmail.com" target="_blank">
+          <div class="socials__email">
+            <img src="./assets/mail.png" alt="" />
+          </div>
+        </div>
+        </a>
+      <p class="copyright">Dmitri Dimov ©2026</p>
+    </footer>
+  </body>
+</html>
