@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bscottnz/project-setup-webpack-notes.git"
+    "url": "git+https://github.com/dimovdmitrii/portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bscottnz/project-setup-webpack-notes/issues"
+    "url": "https://github.com/dimovdmitrii/portfolio"
   },
-  "homepage": "https://github.com/bscottnz/project-setup-webpack-notes#readme",
+  "homepage": "https://github.com/dimovdmitrii/portfolio",
   "devDependencies": {
     "cross-env": "^7.0.3",
     "css-loader": "^6.8.1",
