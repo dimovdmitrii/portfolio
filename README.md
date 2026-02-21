@@ -4,6 +4,8 @@ Welcome to my portfolio page! I'm a full stack web developer, and this site show
 
 🔗 **[dimov.ch](https://www.dimov.ch/)**
 
+
+
 ---
 
 ## About the Project
@@ -31,6 +33,7 @@ A responsive single-page portfolio built from scratch. It includes:
 ---
 
 ## Project Structure
+
 
 ```
 portfolio/
