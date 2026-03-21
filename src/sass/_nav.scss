@@ -50,4 +50,27 @@
       // font-weight: 600;
     }
   }
+
+  &__item--language {
+    display: flex;
+    align-items: center;
+  }
+
+  &__language-select {
+    background: transparent;
+    border: none;
+    color: inherit;
+    font: inherit;
+    letter-spacing: inherit;
+    padding: 0;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+
+    option {
+      color: $color-background;
+    }
+  }
 }

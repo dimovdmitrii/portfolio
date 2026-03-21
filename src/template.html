@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dmitri Dimov | Full Stack Web Developer</title>
+    <title data-i18n="meta.title">Dmitri Dimov | Full Stack Web Developer</title>
     <!-- Open Graph / LinkedIn, Facebook, Telegram preview -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Dmitri Dimov | Full Stack Web Developer">
-    <meta property="og:description" content="Portfolio of Dmitri Dimov — full stack web developer. Projects, skills, and contact.">
+    <meta property="og:title" content="Dmitri Dimov | Full Stack Web Developer" data-i18n-content="meta.ogTitle">
+    <meta property="og:description" content="Portfolio of Dmitri Dimov — full stack web developer. Projects, skills, and contact." data-i18n-content="meta.ogDescription">
     <meta property="og:image" content="https://www.dimov.ch/og-image.png">
     <meta property="og:url" content="https://www.dimov.ch">
     <meta property="og:site_name" content="Dmitri Dimov Portfolio">
@@ -18,11 +18,11 @@
         <canvas class="connecting-dots"></canvas>
       </div>
       <div class="heading">
-        <div class="heading__line-1">Hello, I'm <span>Dmitri</span>.</div>
-        <div class="heading__line-2">I'm a full stack web developer.</div>
+        <div class="heading__line-1" data-i18n-html="hero.greeting">Hello, I'm <span>Dmitri</span>.</div>
+        <div class="heading__line-2" data-i18n="hero.subtitle">I'm a full stack web developer.</div>
         <a href="#about" class="heading__link">
           <div class="heading-cta">
-            View my work
+            <span data-i18n="hero.cta">View my work</span>
 
             <svg
               class="heading__arrow"
@@ -43,10 +43,17 @@
     </div>
     <nav class="navigation-bar">
       <ul class="navigation">
-        <li class="navigation__item navigation__item--active" id="nav-hero"><a href="#hero">Home</a></li>
-        <li class="navigation__item" id="nav-about"><a href="#about">About</a></li>
-        <li class="navigation__item" id="nav-projects"><a href="#projects">Projects</a></li>
-        <li class="navigation__item" id="nav-contact"><a href="#contact">Contact</a></li>
+        <li class="navigation__item navigation__item--active" id="nav-hero"><a href="#hero" data-i18n="nav.home">Home</a></li>
+        <li class="navigation__item" id="nav-about"><a href="#about" data-i18n="nav.about">About</a></li>
+        <li class="navigation__item" id="nav-projects"><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+        <li class="navigation__item" id="nav-contact"><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        <li class="navigation__item navigation__item--language">
+          <select id="language-switcher" class="navigation__language-select" aria-label="Language">
+            <option value="en">Eng</option>
+            <option value="de">De</option>
+            <option value="ru">Rus</option>
+          </select>
+        </li>
       </ul>
     </nav>
     <div class="main-bg">
@@ -55,14 +62,14 @@
       </div>
     </div>
     <section class="about" id="about">
-      <h2 class="about__heading section-heading">About</h2>
+      <h2 class="about__heading section-heading" data-i18n="sections.about">About</h2>
 
       <div class="about__content">
         <div class="profile">
           <div class="profile__picture">
             <img src="./assets/myfoto.png" alt="" />
           </div>
-          <p class="profile__blurb">
+          <p class="profile__blurb" data-i18n="about.blurb">
             Fully committed to the philosophy of life-long learning, I’m a full stack developer with a deep passion for JavaScript, React and all things web development. The unique combination of creativity, logic, technology and never running out of new things to discover, drives my excitement and passion for web development. When I’m not at my computer, I like to spend my time hiking, cooking, and watching movies. 
           </p>
         </div>
@@ -131,7 +138,7 @@
       </div>
     </section>
     <section class="projects" id="projects">
-      <h2 class="projects__heading section-heading">Projects</h2>
+      <h2 class="projects__heading section-heading" data-i18n="sections.projects">Projects</h2>
 
       <div class="project project-left">
         <a href="https://ichgramm-frontend.vercel.app/" target="_blank">
@@ -142,21 +149,21 @@
           </div>
         </a>
         <div class="project__info">
-          <h3 class="project__title">Ichgram<br />Social Media App</h3>
-          <p class="project__description">Full‑stack Instagram‑like application: posts, stories, likes, comments, follows, real‑time chat. Built with React, Vite, Redux, Node.js, Express.js, TypeScript, MongoDB (Mongoose), WebSockets and JWT auth.</p>
+          <h3 class="project__title" data-i18n-html="projects.ichgram.title">Ichgram<br />Social Media App</h3>
+          <p class="project__description" data-i18n="projects.ichgram.description">Full‑stack Instagram‑like application: posts, stories, likes, comments, follows, real‑time chat. Built with React, Vite, Redux, Node.js, Express.js, TypeScript, MongoDB (Mongoose), WebSockets and JWT auth.</p>
           <a href="https://ichgramm-frontend.vercel.app/" target="_blank"
-            ><div class="project__live-2">Live app</div></a
+            ><div class="project__live-2" data-i18n="projects.liveApp">Live app</div></a
           >
           <a href="https://github.com/dimovdmitrii/ichgramm_frontend" target="_blank"
-            ><div class="project__live-2">learn more</div></a
+            ><div class="project__live-2" data-i18n="projects.learnMore">learn more</div></a
           >
         </div>
       </div>
 
       <div class="project project-right">
         <div class="project__info">
-          <h3 class="project__title">G-Code Terminal & <br />Virtual Keyboards</h3>
-          <p class="project__description">G-code sending terminal and touch-optimized QWERTY + numeric keyboards for a 3D bioprinter application </p>
+          <h3 class="project__title" data-i18n-html="projects.bioprinter.title">G-Code Terminal & <br />Virtual Keyboards</h3>
+          <p class="project__description" data-i18n="projects.bioprinter.description">G-code sending terminal and touch-optimized QWERTY + numeric keyboards for a 3D bioprinter application. Project work was under NDA, so no links or repository are available.</p>
         </div>
         <a href="javascript:void(0)" class="project__image-link--noaction">
           <div class="project__image-container todo biomotion">
@@ -176,13 +183,13 @@
           </div>
         </a>
         <div class="project__info">
-          <h3 class="project__title">PetShop<br />Online Pet Store</h3>
-          <p class="project__description">Full‑stack pet store. Built with React, Redux Toolkit, React Router, Material UI, CSS Modules, Axios, Swiper and REST API.</p>
+          <h3 class="project__title" data-i18n-html="projects.petshop.title">PetShop<br />Online Pet Store</h3>
+          <p class="project__description" data-i18n="projects.petshop.description">Full‑stack pet store. Built with React, Redux Toolkit, React Router, Material UI, CSS Modules, Axios, Swiper and REST API.</p>
           <a href="https://pet-shop-projct.vercel.app/" target="_blank"
-            ><div class="project__live-2">Live app</div></a
+            ><div class="project__live-2" data-i18n="projects.liveApp">Live app</div></a
           >
           <a href="https://github.com/dimovdmitrii/petshop-project" target="_blank"
-            ><div class="project__live-2">learn more</div></a
+            ><div class="project__live-2" data-i18n="projects.learnMore">learn more</div></a
           >
         </div>
       </div>      
@@ -190,14 +197,14 @@
 
       <div class="project project-right">
         <div class="project__info">
-          <h3 class="project__title">// MeetUp<br />event discovery platform</h3>
-          <p class="project__description">HTML5, CSS3, Vanilla JavaScript (ES6+)
+          <h3 class="project__title" data-i18n-html="projects.meetup.title">// MeetUp<br />event discovery platform</h3>
+          <p class="project__description" data-i18n="projects.meetup.description">HTML5, CSS3, Vanilla JavaScript (ES6+)
             Leaflet</p>
           <a href="https://dimovdmitrii.github.io/meetup_project/" target="_blank"
-            ><div class="project__live-2">live app</div></a
+            ><div class="project__live-2" data-i18n="projects.liveAppLower">live app</div></a
           >
           <a href="https://github.com/dimovdmitrii/meetup_project" target="_blank"
-            ><div class="project__live-2">learn more</div></a
+            ><div class="project__live-2" data-i18n="projects.learnMore">learn more</div></a
           >
         </div>
         <a href="https://dimovdmitrii.github.io/meetup_project/" target="_blank">
@@ -218,21 +225,21 @@
           </div>
         </a>
         <div class="project__info">
-          <h3 class="project__title">HOTSAUCE<br />conference — Hotjar's event.</h3>
-          <p class="project__description">Responsiven Landingpage mit HTML, SCSS und JavaScript</p>
+          <h3 class="project__title" data-i18n-html="projects.hotsauce.title">HOTSAUCE<br />conference — Hotjar's event.</h3>
+          <p class="project__description" data-i18n="projects.hotsauce.description">Responsiven Landingpage mit HTML, SCSS und JavaScript</p>
           <a href="https://dimovdmitrii.github.io/HotSauce/" target="_blank"
-            ><div class="project__live-2">Live app</div></a
+            ><div class="project__live-2" data-i18n="projects.liveApp">Live app</div></a
           >
           <a href="https://github.com/dimovdmitrii/HotSauce" target="_blank"
-            ><div class="project__live-2">learn more</div></a
+            ><div class="project__live-2" data-i18n="projects.learnMore">learn more</div></a
           >
         </div>
       </div>
 
     </section>
     <section class="contact" id="contact">
-      <h2 class="contact__heading section-heading">Contact</h2>
-      <p class="contact__text">Have a question or want to work together? Leave your details and I'll get back to you as soon as possible.</p>
+      <h2 class="contact__heading section-heading" data-i18n="sections.contact">Contact</h2>
+      <p class="contact__text" data-i18n="contact.text">Have a question or want to work together? Leave your details and I'll get back to you as soon as possible.</p>
 
       <form
         class="contact__form"
@@ -244,6 +251,7 @@
           type="text"
           name="name"
           placeholder="Name"
+          data-i18n-placeholder="contact.placeholder.name"
           
         />
 
@@ -252,6 +260,7 @@
           type="email"
           name="_replyto"
           placeholder="Email"
+          data-i18n-placeholder="contact.placeholder.email"
           
         />
 
@@ -259,16 +268,17 @@
           class="contact__form-message"
           name="message"
           placeholder="Message"
+          data-i18n-placeholder="contact.placeholder.message"
           
         ></textarea>
 
         <div class="contact__form-error-submit">
         	<div class="form-error">
-        	  <div class="form-error__name">Please enter your name.</div>
-        	  <div class="form-error__email">Please enter a valid email.</div>
-        	  <div class="form-error__msg">Please enter a message.</div>
+        	  <div class="form-error__name" data-i18n="contact.error.name">Please enter your name.</div>
+        	  <div class="form-error__email" data-i18n="contact.error.email">Please enter a valid email.</div>
+        	  <div class="form-error__msg" data-i18n="contact.error.message">Please enter a message.</div>
         	</div>
-        	<button type="button" class="contact__form-submit-2 project__live-2" id="form-submit" >Submit</button>
+        	<button type="button" class="contact__form-submit-2 project__live-2" id="form-submit" data-i18n="contact.submit">Submit</button>
         </div>
       </form>
       
