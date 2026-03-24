@@ -13,6 +13,9 @@
   @media (max-width: 700px) {
     margin-right: 0;
   }
+  // @media (max-width: 380px) {
+  //   font-size: 1.4rem;
+  // }
 
   &-bar {
     position: sticky;
@@ -38,7 +41,7 @@
   &__item {
     transition: all 0.2s;
     &:not(:last-child) {
-      margin-right: 3rem;
+      margin-right: 2.5rem;
     }
 
     &--active {
@@ -73,4 +76,8 @@
       color: $color-background;
     }
   }
+}
+
+#nav-about a {
+  white-space: nowrap;
 }

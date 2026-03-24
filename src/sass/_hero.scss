@@ -87,8 +87,9 @@
     align-items: center;
     margin-top: 2.4rem;
     padding: 0.8rem 3rem;
-    width: 27.5rem;
+    width: auto;
     height: 4.8rem;
+    white-space: nowrap;
 
     background-color: rgba($color-background, 0.6);
     border: 2px solid $color-red;
@@ -103,16 +104,13 @@
     animation-fill-mode: backwards;
     animation-timing-function: cubic-bezier(0.21, 1.11, 0.81, 0.99);
 
-    @media (max-width: 1500px) {
-      width: auto;
-    }
-
     @media (max-width: 700px) {
       margin-top: 1.8rem;
     }
 
     @media (max-width: 550px) {
       padding: 0.8rem 2rem;
+      font-size: 2rem;
     }
 
     // &:hover .heading__arrow {
@@ -127,8 +125,8 @@
 
       top: -2px;
       left: -2px;
-      width: 27.5rem;
-      height: 4.8rem;
+      right: -2px;
+      bottom: -2px;
 
       border-radius: 3px;
       border: 2px solid rgba($color-red, 1);
@@ -137,12 +135,7 @@
       transform-origin: 50%;
       z-index: -1;
 
-      @media (max-width: 1500px) {
-        width: 27.8rem;
-      }
-
       @media (max-width: 1200px) {
-        width: 28.5rem;
         border: 2px solid transparent;
       }
     }
