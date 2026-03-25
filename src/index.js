@@ -28,6 +28,9 @@ const translations = {
     'projects.bioprinter.title': 'G-Code Terminal & <br />Virtual Keyboards',
     'projects.bioprinter.description':
       'G-code sending terminal and touch-optimized QWERTY + numeric keyboards for a 3D bioprinter application. Project work was under NDA, so no links or repository are available.',
+    'projects.vocabular.title': 'German Learning<br />PWA',
+    'projects.vocabular.description':
+      'My small pet project: A German vocabulary Progressive Web App (PWA) with offline-friendly learning, word categories and learning statistics. Built with JavaScript PWA features and local data storage.',
     'projects.petshop.title': 'PetShop<br />Online Pet Store',
     'projects.petshop.description':
       'Full-stack pet store. Built with React, Redux Toolkit, React Router, Material UI, CSS Modules, Axios, Swiper and REST API.',
@@ -76,6 +79,9 @@ const translations = {
     'projects.bioprinter.title': 'G-Code терминал и <br />виртуальные клавиатуры',
     'projects.bioprinter.description':
       'Терминал отправки G-code и сенсорно-оптимизированные QWERTY + цифровая клавиатуры для приложения 3D-биопринтера. Работа выполнена в рамках NDA, поэтому ссылки и репозиторий недоступны.',
+    'projects.vocabular.title': 'Немецкая лексика<br />PWA',
+    'projects.vocabular.description':
+      'Мой маленький pet-проект: PWA для изучения немецкой лексики: офлайн-обучение, категории слов и статистика прогресса. Сделано на базе JavaScript с PWA-функциями и локальным хранением данных.',
     'projects.petshop.title': 'PetShop<br />Интернет-магазин товаров для животных',
     'projects.petshop.description':
       'Full-stack интернет-магазин. Стек: React, Redux Toolkit, React Router, Material UI, CSS Modules, Axios, Swiper и REST API.',
@@ -123,6 +129,9 @@ const translations = {
     'projects.bioprinter.title': 'G-Code-Terminal & <br />virtuelle Tastaturen',
     'projects.bioprinter.description':
       'G-Code-Sende-Terminal und touch-optimierte QWERTY- sowie numerische Tastaturen fur eine 3D-Bioprinter-Anwendung. Das Projekt stand unter NDA, daher sind keine Links oder Repositories verfugbar.',
+    'projects.vocabular.title': 'Deutsch Lernen<br />PWA',
+    'projects.vocabular.description':
+      'Mein kleines Pet-Projekt: Eine Progressive Web App (PWA) fur das Deutsch-Lernen: offline-freundliches Lernen, Wortkategorien und Lernstatistiken. Mit JavaScript-PWA-Funktionen und lokaler Datenspeicherung.',
     'projects.petshop.title': 'PetShop<br />Online-Zoofachhandel',
     'projects.petshop.description':
       'Full-Stack-Zoofachhandel. Gebaut mit React, Redux Toolkit, React Router, Material UI, CSS Modules, Axios, Swiper und REST API.',
