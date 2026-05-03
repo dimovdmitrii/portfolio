@@ -1,0 +1,5 @@
+# https://www.dimov.ch/robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://www.dimov.ch/sitemap.xml

@@ -21,6 +21,8 @@ module.exports = merge(common, {
     new CopyWebpackPlugin({
       patterns: [
         { from: 'src/assets/portfoliologo.png', to: 'og-image.png' },
+        { from: 'src/robots.txt', to: 'robots.txt' },
+        { from: 'src/sitemap.xml', to: 'sitemap.xml' },
       ],
     }),
   ],
