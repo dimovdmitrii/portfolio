@@ -58,6 +58,8 @@
       position: relative;
       height: 70rem;
       width: 100rem;
+      display: flex;
+      box-sizing: border-box;
 
       // border: 1px solid red;
       background-color: $color-blue-dark;
@@ -100,12 +102,77 @@
     }
 
     &-image {
-      width: 85%;
+      flex: 1 1 auto;
+      align-self: stretch;
+      width: 100%;
+      max-width: 100%;
+      min-height: 0;
       position: relative;
+      box-sizing: border-box;
 
       & img {
         width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: contain;
+        object-position: center;
       }
+
+      &--quad {
+        padding: clamp(0.6rem, 1.2vw, 1.4rem);
+
+        .project__quad-grid:not(.project__quad-grid--pair) img {
+          object-fit: cover;
+        }
+      }
+    }
+  }
+
+  &__quad-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    gap: clamp(0.5rem, 1vw, 1rem);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    align-content: stretch;
+
+    &--pair {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: stretch;
+      grid-template-columns: unset;
+      grid-template-rows: unset;
+    }
+  }
+
+  &__quad-grid-item {
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.06);
+
+    .project__quad-grid--pair > & {
+      flex: 1 1 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0, 0, 0, 0.18);
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .project__quad-grid--pair > & img {
+      object-fit: contain;
     }
   }
 
