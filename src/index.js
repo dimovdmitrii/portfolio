@@ -20,8 +20,16 @@ const translations = {
     'sections.about': 'About',
     'sections.projects': 'Projects',
     'sections.contact': 'Contact',
-    'about.blurb':
-      'Fully committed to the philosophy of life-long learning, I’m a full stack developer with a deep passion for JavaScript, React and all things web development. The unique combination of creativity, logic, technology and never running out of new things to discover, drives my excitement and passion for web development. When I’m not at my computer, I like to spend my time hiking, cooking, and watching movies.',
+    'projects.mustvisibility.title':
+      'MUST Visibility<br />Industrial IoT marketing site',
+    'projects.mustvisibility.description':
+      'MUST Visibility is a static marketing site for an industrial IoT (IIoT) platform. It’s built with React, TypeScript, Vite, and Tailwind, uses lightweight client routing, and ships as plain HTML/CSS/JS for cheap static hosting. The contact form sends submissions to email through Web3Forms, so there’s no custom backend on the server.',
+    'about.blurb.1':
+      'Fully committed to the philosophy of life-long learning, I’m a full stack developer with a deep passion for JavaScript, React and all things web development.',
+    'about.blurb.2':
+      'The unique combination of creativity, logic, technology and never running out of new things to discover, drives my excitement and passion for web development.',
+    'about.blurb.3':
+      'When I’m not at my computer, I like to spend my time hiking, cooking, and watching movies.',
     'projects.ichgram.title': 'Ichgram<br />Social Media App',
     'projects.ichgram.description':
       'Full-stack Instagram-like application: posts, stories, likes, comments, follows, real-time chat. Built with React, Vite, Redux, Node.js, Express.js, TypeScript, MongoDB (Mongoose), WebSockets and JWT auth.',
@@ -71,8 +79,16 @@ const translations = {
     'sections.about': 'Обо мне',
     'sections.projects': 'Проекты',
     'sections.contact': 'Контакты',
-    'about.blurb':
-      'Я полностью придерживаюсь философии непрерывного обучения и работаю как full stack разработчик с глубокой страстью к JavaScript, React и веб-разработке в целом. Уникальное сочетание креативности, логики и технологий, а также постоянное появление нового для изучения, подпитывает мой интерес к этой сфере. Когда я не за компьютером, люблю ходить в походы, готовить и смотреть фильмы.',
+    'projects.mustvisibility.title':
+      'MUST Visibility<br />Маркетинговый сайт для Industrial IoT',
+    'projects.mustvisibility.description':
+      'MUST Visibility — статический маркетинговый сайт для платформы промышленного IoT (IIoT). Стек: React, TypeScript, Vite и Tailwind, лёгкий клиентский роутинг, сборка в обычный HTML/CSS/JS для недорогого статического хостинга. Форма обратной связи отправляет заявки на почту через Web3Forms — без собственного бэкенда на сервере.',
+    'about.blurb.1':
+      'Я полностью придерживаюсь философии непрерывного обучения и работаю как full stack разработчик с глубокой страстью к JavaScript, React и веб-разработке в целом.',
+    'about.blurb.2':
+      'Уникальное сочетание креативности, логики и технологий, а также постоянное появление нового для изучения, подпитывает мой интерес к этой сфере.',
+    'about.blurb.3':
+      'Когда я не за компьютером, люблю ходить в походы, готовить и смотреть фильмы.',
     'projects.ichgram.title': 'Ichgram<br />Социальная сеть',
     'projects.ichgram.description':
       'Full-stack приложение в стиле Instagram: посты, сторис, лайки, комментарии, подписки, чат в реальном времени. Стек: React, Vite, Redux, Node.js, Express.js, TypeScript, MongoDB (Mongoose), WebSockets и JWT-аутентификация.',
@@ -121,8 +137,16 @@ const translations = {
     'sections.about': 'Über mich',
     'sections.projects': 'Projekte',
     'sections.contact': 'Kontakt',
-    'about.blurb':
-      'Ich lebe die Philosophie des lebenslangen Lernens und arbeite als Full-Stack-Entwickler mit großer Leidenschaft für JavaScript, React und alles rund um Webentwicklung. Die Kombination aus Kreativität, Logik und Technologie sowie die ständige Möglichkeit, Neues zu entdecken, motiviert mich jeden Tag. Wenn ich nicht am Computer sitze, gehe ich gerne wandern, koche und schaue Filme.',
+    'projects.mustvisibility.title':
+      'MUST Visibility<br />Marketing-Site für Industrial IoT',
+    'projects.mustvisibility.description':
+      'MUST Visibility ist eine statische Marketing-Website für eine Industrial-IoT-(IIoT-)Plattform. Gebaut mit React, TypeScript, Vite und Tailwind, mit leichtgewichtigem Client-Routing, ausgeliefert als plain HTML/CSS/JS für günstiges Static Hosting. Das Kontaktformular schickt Anfragen per Web3Forms per E-Mail — ohne eigenes Backend auf dem Server.',
+    'about.blurb.1':
+      'Ich lebe die Philosophie des lebenslangen Lernens und arbeite als Full-Stack-Entwickler mit großer Leidenschaft für JavaScript, React und alles rund um Webentwicklung.',
+    'about.blurb.2':
+      'Die Kombination aus Kreativität, Logik und Technologie sowie die ständige Möglichkeit, Neues zu entdecken, motiviert mich jeden Tag.',
+    'about.blurb.3':
+      'Wenn ich nicht am Computer sitze, gehe ich gerne wandern, koche und schaue Filme.',
     'projects.ichgram.title': 'Ichgram<br />Social-Media-App',
     'projects.ichgram.description':
       'Full-Stack-Anwendung im Instagram-Stil: Beiträge, Stories, Likes, Kommentare, Follows und Echtzeit-Chat. Gebaut mit React, Vite, Redux, Node.js, Express.js, TypeScript, MongoDB (Mongoose), WebSockets und JWT-Authentifizierung.',

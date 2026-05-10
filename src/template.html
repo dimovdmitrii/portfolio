@@ -147,12 +147,22 @@
 
       <div class="about__content">
         <div class="profile">
-          <div class="profile__picture">
-            <img src="./assets/myfoto.png" alt="Dmitri Dimov — full stack web developer portrait" />
+          <div class="profile__picture-frame">
+            <div class="profile__picture">
+              <img src="./assets/myfoto.png" alt="Dmitri Dimov — full stack web developer portrait" />
+            </div>
           </div>
-          <p class="profile__blurb" data-i18n="about.blurb">
-            Fully committed to the philosophy of life-long learning, I’m a full stack developer with a deep passion for JavaScript, React and all things web development. The unique combination of creativity, logic, technology and never running out of new things to discover, drives my excitement and passion for web development. When I’m not at my computer, I like to spend my time hiking, cooking, and watching movies. 
-          </p>
+          <div class="profile__blurbs">
+            <p class="profile__blurb" data-i18n="about.blurb.1">
+              Fully committed to the philosophy of life-long learning, I’m a full stack developer with a deep passion for JavaScript, React and all things web development.
+            </p>
+            <p class="profile__blurb" data-i18n="about.blurb.2">
+              The unique combination of creativity, logic, technology and never running out of new things to discover, drives my excitement and passion for web development.
+            </p>
+            <p class="profile__blurb" data-i18n="about.blurb.3">
+              When I’m not at my computer, I like to spend my time hiking, cooking, and watching movies.
+            </p>
+          </div>
         </div>
         <!-- <h2 class="about__heading">Skills & technologies</h2> -->
         <div class="skills">
@@ -220,6 +230,27 @@
     </section>
     <section class="projects" id="projects">
       <h2 class="projects__heading section-heading" data-i18n="sections.projects">Projects</h2>
+
+      <div class="project project-left">
+        <a href="https://must-visibility.com/" target="_blank" rel="noopener noreferrer">
+          <div class="project__image-container weather">
+            <div class="project__image-image">
+              <img src="./assets/Must-Visi.png" alt="MUST Visibility — industrial IoT marketing site screenshot" loading="lazy" />
+            </div>
+          </div>
+        </a>
+        <div class="project__info">
+          <h3 class="project__title" data-i18n-html="projects.mustvisibility.title">
+            MUST Visibility<br />Industrial IoT marketing site
+          </h3>
+          <p class="project__description" data-i18n="projects.mustvisibility.description">
+            MUST Visibility is a static marketing site for an industrial IoT (IIoT) platform. It’s built with React, TypeScript, Vite, and Tailwind, uses lightweight client routing, and ships as plain HTML/CSS/JS for cheap static hosting. The contact form sends submissions to email through Web3Forms, so there’s no custom backend on the server.
+          </p>
+          <a href="https://must-visibility.com/" target="_blank" rel="noopener noreferrer"
+            ><div class="project__live-2" data-i18n="projects.liveApp">Live app</div></a
+          >
+        </div>
+      </div>
 
       <div class="project project-right">
         <div class="project__info">

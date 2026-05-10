@@ -82,37 +82,56 @@
     margin-bottom: 7rem;
   }
 
+  &__picture-frame {
+    margin-bottom: 4rem;
+  }
+
   &__picture {
     height: 24rem;
     width: 24rem;
-    margin-bottom: 4rem;
-    // background-color: $color-blue-dark;
+    margin-bottom: 0;
+    position: relative;
+    background-color: #bf4b4b;
 
     display: flex;
     justify-content: flex-start;
     align-items: center;
     overflow: hidden;
     border-radius: 50%;
+    border: 1px solid rgba($color-text, 0.12);
+
     & svg,
     & img {
       transition: all 1.1s;
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
+      object-position: center;
+      position: relative;
     }
+
     & img {
       border-radius: 50%;
     }
   }
-  &__blurb {
-    font-size: 1.8rem;
+
+  &__blurbs {
     width: 500px;
-    line-height: 1.8;
 
     @media (max-width: 600px) {
       width: 80vw;
       margin-left: auto;
       margin-right: auto;
+    }
+  }
+
+  &__blurb {
+    margin: 0;
+    font-size: 1.8rem;
+    line-height: 1.8;
+
+    &:not(:last-child) {
+      margin-bottom: 1.2rem;
     }
   }
 
